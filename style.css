@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(75, 75, 75);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 10rem;
+}
+.tabla {
+    margin-top: 25vh;
+}
+
+.calculadora {
+    width: 16rem;
+    background-color: #6e9e41;
+    padding: .5rem 1.5rem 1rem;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: all  650ms ease ;
+}
+
+.calculadora:hover {
+    box-shadow: 10px 10px 40px black;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: .5rem;
+
+}
+
+#pantalla {
+    display: block;
+    width: 220px;
+    height: 31px;
+    background-color: #e5e5e5;
+    margin-bottom: 1rem;
+    padding: 1rem ;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+button{
+    width: 3.8rem;
+    padding: 1rem;
+   
+}
+
